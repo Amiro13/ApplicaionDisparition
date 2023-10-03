@@ -1,0 +1,110 @@
+        /* Styles généraux */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: orange; /* Fond orange */
+            color: white; /* Texte en blanc */
+        }
+        /* Styles pour la barre de navigation */
+        .navbar {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+        
+        /* Styles pour le contenu de la barre de navigation */
+        .navbar-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        /* Styles pour le logo "Found Me" */
+        .logo {
+            font-size: 24px;
+        }
+        
+        /* Styles pour le bouton "Connexion" */
+        .deconnexion-btn {
+            background-color: #f0f0f0;
+            color: #333;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        
+        /* Contenu principal */
+        .content {
+            max-width: 1200px;
+            margin: 20px auto;
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        /* Styles pour la photo de profil */
+        .profile-photo {
+            text-align: center; /* Centre la photo horizontalement */
+            margin-top: 20px; /* Ajoute de l'espace entre la barre de navigation et la photo */
+        }
+        
+        .profile-photo img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        
+        /* Formulaire de création d'annonce */
+        .annonce-form {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .annonce-form h3 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        
+        .annonce-form label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        
+        .annonce-form input[type="text"],
+        .annonce-form textarea,
+        .annonce-form input[type="file"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        .annonce-form button[type="submit"] {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        
+
+        .annonces-btn{
+            background-color: #f0f0f0;
+            color: #333;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }

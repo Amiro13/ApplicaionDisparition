@@ -1,0 +1,113 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.container {
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.profil-btn {
+    background-color: #ff6600; /* Orange */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; /* Supprimer la décoration du lien */
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Ajout d'une transition en douceur au changement de couleur de fond */
+
+    /* Centrer le texte et le bouton */
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+.profil-btn:hover {
+    background-color: #ff5500; /* Orange foncé au survol */
+}
+
+
+/* Styles pour la liste des annonces */
+.annonce-list {
+    list-style: none;
+    padding: 0;
+}
+
+.annonce {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.annonce img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.annonce h2 {
+    font-size: 18px;
+    margin-top: 0;
+    color: #ff6600; /* Orange */
+}
+
+.annonce p {
+    font-size: 14px;
+    color: #333;
+}
+
+/* Styles pour le formulaire de commentaire */
+.comment-form {
+    margin-top: 20px;
+    text-align: center; /* Centrer le contenu du formulaire */
+}
+
+.comment-form label {
+    font-weight: bold;
+    color: #ff6600; /* Orange */
+    display: block;
+    margin-bottom: 5px;
+}
+
+.comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: none;
+    font-size: 14px;
+    color: #333;
+}
+
+.comment-form button[type="submit"] {
+    background-color: #ff6600; /* Orange */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Ajout d'une transition en douceur au changement de couleur de fond */
+}
+
+.comment-form button[type="submit"]:hover {
+    background-color: #ff5500; /* Orange foncé au survol */
+}

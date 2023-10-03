@@ -1,0 +1,80 @@
+body {
+    background-color: orange;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+    margin-top: 0;
+}
+
+form {
+    background-color: white;
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Style pour la première colonne */
+.col1 {
+    flex-basis: calc(50% - 10px);
+}
+
+/* Style pour la deuxième colonne */
+.col2 {
+    flex-basis: calc(45% - 10px);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: orange;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid orange;
+    background-color: transparent;
+    color: black;
+}
+
+button.inscrire-btn,
+a.connexion-btn {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.connexion-btn {
+    background-color: black;
+    margin-top: 10px;
+}
